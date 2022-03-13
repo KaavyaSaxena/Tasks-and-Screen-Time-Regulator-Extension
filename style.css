@@ -1,0 +1,35 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aquamarine;
+    border: 2px rgba(255, 255, 255, 0.521) solid;
+    width: 200px;
+}
+#countdown{
+    font-size:30px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+button{
+    background-color: black;
+    color: aliceblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 5px auto;
+    display: block;
+    padding: 6px;
+}
+#item{
+    margin: 0 auto;
+    background-color: rgb(185, 247, 226);
+    border: none;
+    height: 35px;
+    width: 195px;
+    padding-left: 3px;
+    font-size: 15px ;
+}
+ul{
+    list-style-type: none;
+    font: size 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+   text-align: left;
+}

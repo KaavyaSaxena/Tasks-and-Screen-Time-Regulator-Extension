@@ -1,0 +1,31 @@
+{
+    "name": "Tasks Regulator",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "To Do List with Screen-Time Regulator",
+    "permissions":["activeTab"],
+    "icons":{
+        "128":"Assets/logo.jpg"
+    },
+    "browser_action": {
+        "default_icon" :  "Assets/logo.jpg",
+        "default_popup": "index.html"
+    },
+    "content_scripts": [
+        {
+            "matches":["<all_urls>"],
+            "js": ["script.js"]
+        }
+    ]
+}
+ /*
+    "authors": 
+        "name": "Kaavya",
+        "email": "Kaavya.Saxena@studentambassadors.com"
+        ,
+        
+            "name": "Agboola StephanPraise",
+            "email": "agboola.stephenpraise@studentambassadors.com"
+        
+    
+    */
